@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>&lt;style&gt; 속성에 스타일 만들기</title>
+<style>
+.music{border:3px; color : brown; font-size : 15px;} /* 모든 p 태그에 적용 */
+.meat{color:pink; font-size:20px;}
+.food{color:red; font-size:25px;}
+#great{color:gold; font-size:30px;}
+</style>
+</head>
+<body>
+<h3>장홍준</h3>
+<hr>
+<img src="기타.img.jpg">
+<p class="music">음악를 좋아하고</p>
+<p class="music">프로그래밍을 좋아하고</p>
+<p class="meat">고기를 좋아하고</p> <!-- 헤드에 p태그 적용 전 먼저 inline 적용이면 후자 먼저-->
+<p class="meat">고기를 좋아하고</p>
+<p class="meat">고기를 좋아하고</p>
+<p class="food">고기를 좋아하고</p>
+<p class="food">고기를 좋아하고</p>
+<p id="great">고기를 좋아하고</p>
+<p style="font-size:30px;color:blue">분위기를 좋아하고</p>
+<p style="color:magenta; font-size:30px">탁구를
+ 좋아합니다.</p>
+</body>
+</html>
